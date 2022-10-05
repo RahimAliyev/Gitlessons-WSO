@@ -1,0 +1,50 @@
+body{
+
+    background-image: url(https://media.istockphoto.com/photos/twinkling-star-field-overlay-texture-on-black-background-picture-id938050474?b=1&k=20&m=938050474&s=170667a&w=0&h=D2d9BnYsHXpkidikvqFi1-abDh7doWvatWEpUpzRNJU=);
+
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    background-color: rgba(0, 0, 0, 0.429);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.logo{
+   
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+a { 
+
+    color: whitesmoke;
+
+  
+    
+}
+
+h1{
+    color: yellow;
+    display: flex;
+    display: inline-block;
+}
+
+h2{
+    color: rgb(251, 235, 215);
+    display: flex;
+    display: inline-block;
+
+
+}
+img {
+    display: flex;
+    display: inline-block;
+ 
+    
+}
