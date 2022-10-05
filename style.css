@@ -2,6 +2,8 @@ body{
 
     background-image: url(https://media.istockphoto.com/photos/twinkling-star-field-overlay-texture-on-black-background-picture-id938050474?b=1&k=20&m=938050474&s=170667a&w=0&h=D2d9BnYsHXpkidikvqFi1-abDh7doWvatWEpUpzRNJU=);
 
+
+
 }
 
 .header{
@@ -10,7 +12,9 @@ justify-content: space-between;
 align-items: center;
     background-color: rgba(0, 0, 0, 0.429);
     margin: 0%;
-    padding: 0%;
+    padding: 0%;  
+
+
 }
 
 
@@ -29,22 +33,50 @@ a {
     
 }
 
+img {
+    display: flex;
+    /* display: inline-block; */
+ 
+    
+}
+.nav-links{
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-around;
+}
+
+
 h1{
     color: yellow;
-    display: flex;
-    display: inline-block;
+    /* display: flex;
+    display: inline-block; */
 }
 
 h2{
     color: rgb(251, 235, 215);
-    display: flex;
-    display: inline-block;
+    /* display: flex;
+    display: inline-block; */
 
 
 }
-img {
+
+
+.content {
     display: flex;
-    display: inline-block;
- 
-    
+    align-items: center;
+}
+
+
+.left-side {
+    flex-basis: 60%;
+}
+
+.right-side {
+    display: flex;
+   align-self: flex-end;
+   flex:1;
+}
+
+.right-side img {
+    width: 100%;
 }
